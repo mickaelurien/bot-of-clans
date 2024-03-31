@@ -1,0 +1,1 @@
+DELTA_CRON_WAR=9 # The number of hours remaining until the end of the war needed to warn players to make their attacks
