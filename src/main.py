@@ -130,8 +130,8 @@ async def get_clan_info(message):
     text = f'''
     **{clan['name']}** - Le clan est niveau **{clan['clanLevel']}** et comporte **{clan['members']}** membres.
     - Winrate en guerre de clan : {round(clan['warWins'] / (clan['warWins'] + clan['warLosses']) * 100)}% ({clan['warWins']}/{clan['warLosses']})
-    - Hôtel de ville moyen : {avg_town_hall_level}
-    - Trophées moyen par membres : {avg_trophies}
+    \n- Hôtel de ville moyen : {avg_town_hall_level}
+    \n- Trophées moyen par membres : {avg_trophies}
     '''
     await message.channel.send(text)    
 
